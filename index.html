@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Jogo da Velha</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jogo da Memória</h1>
+        <div class="controls"> <label for="theme">Tema:</label> <select id="theme">
+                <option value="numbers">Números</option>
+                <option value="icons">Ícones</option>
+            </select> <label for="gridSize">Tamanho da Grade:</label> <select id="gridSize">
+                <option value="4x4">4x4</option>
+                <option value="6x6">6x6</option>
+            </select> <button id="startGame">Iniciar Jogo</button> </div>
+    </header>
+    <main>
+        <div id="gameBoard" class="game-board"></div>
+</body>
+<script src="./scripts.js"></script>
+</html>
