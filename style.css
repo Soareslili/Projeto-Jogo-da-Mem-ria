@@ -23,6 +23,23 @@ header h1 {
     margin: 0;
 }
 
+select {
+    background-color: aquamarine;
+    color: #000;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+select:hover {
+    color: #000;
+    background-color: rgb(54, 105, 88);
+}
+
+
 
 
 .controls  {
